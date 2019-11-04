@@ -13,6 +13,8 @@
 		8C07DE67237066EF00C0BCD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C07DE65237066EF00C0BCD3 /* Main.storyboard */; };
 		8C07DE69237066F100C0BCD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C07DE68237066F100C0BCD3 /* Assets.xcassets */; };
 		8C07DE6C237066F100C0BCD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C07DE6A237066F100C0BCD3 /* LaunchScreen.storyboard */; };
+		8C07DE742370675B00C0BCD3 /* GameOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DE732370675B00C0BCD3 /* GameOfLife.swift */; };
+		8C07DE762370690200C0BCD3 /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C07DE752370690200C0BCD3 /* CustomCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8C07DE68237066F100C0BCD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C07DE6B237066F100C0BCD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C07DE6D237066F100C0BCD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C07DE732370675B00C0BCD3 /* GameOfLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLife.swift; sourceTree = "<group>"; };
+		8C07DE752370690200C0BCD3 /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				8C07DE5F237066EF00C0BCD3 /* AppDelegate.swift */,
 				8C07DE61237066EF00C0BCD3 /* SceneDelegate.swift */,
 				8C07DE63237066EF00C0BCD3 /* ViewController.swift */,
+				8C07DE732370675B00C0BCD3 /* GameOfLife.swift */,
+				8C07DE752370690200C0BCD3 /* CustomCellTableViewCell.swift */,
 				8C07DE65237066EF00C0BCD3 /* Main.storyboard */,
 				8C07DE68237066F100C0BCD3 /* Assets.xcassets */,
 				8C07DE6A237066F100C0BCD3 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				8C07DE64237066EF00C0BCD3 /* ViewController.swift in Sources */,
 				8C07DE60237066EF00C0BCD3 /* AppDelegate.swift in Sources */,
+				8C07DE742370675B00C0BCD3 /* GameOfLife.swift in Sources */,
+				8C07DE762370690200C0BCD3 /* CustomCellTableViewCell.swift in Sources */,
 				8C07DE62237066EF00C0BCD3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
